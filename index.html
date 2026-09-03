@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ceylon Spice Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><span>🌿 100% Pure & Authentic Sri Lankan Spices</span><span>🚚 Islandwide Delivery</span><span>☎ +94 77 123 4567</span></div>
+<header><div class="navwrap">
+<a class="logo" href="#home"><span>Ceylon</span><small>🌿 SPICE HUB</small></a>
+<button class="hamb" id="hamb">☰</button>
+<nav id="nav"><a class="active" href="#home">Home</a><a href="#shop">Shop</a><a href="#categories">Categories⌄</a><a href="#about">About Us</a><a href="#contact">Contact Us</a></nav>
+<div class="actions"><div class="search"><input id="search" placeholder="Search spices..."><button id="searchBtn">⌕</button></div><button class="ico">♙</button><button class="ico">♡</button><button class="cart" id="cart">🛒<b id="count">2</b></button></div>
+</div></header>
+<section class="hero" id="home"><div class="heroText"><p>AUTHENTIC • NATURAL • PREMIUM</p><h1>The Flavours of<br><i>Sri Lanka</i></h1><div class="copy">Discover premium Ceylon spices, carefully selected from our rich land and delivered fresh to your doorstep.</div><a class="btn green" href="#shop">🛒 SHOP NOW</a><a class="btn white" href="#about">⚑ EXPLORE MORE</a></div></section>
+<section class="trust"><div>🍃 <span><b>100% Authentic</b><small>Pure Ceylon Spices</small></span></div><div>🌱 <span><b>Fresh & Natural</b><small>Carefully Handpicked</small></span></div><div>🚚 <span><b>Islandwide Delivery</b><small>Fast & Reliable</small></span></div><div>🛡 <span><b>Secure Payment</b><small>100% Safe Checkout</small></span></div></section>
+<main>
+<section class="section" id="categories"><div class="title"><h2>Shop by Category</h2><a href="#shop">View All Categories →</a></div><div class="categories">
+<div class="cat"><img src="images/cinnamon.jpg"><b>Ceylon Cinnamon</b><small>Warm & Sweet</small></div><div class="cat"><img src="images/pepper.jpg"><b>Black Pepper</b><small>Bold & Aromatic</small></div><div class="cat"><img src="images/cardamom.jpg"><b>Cardamom</b><small>Rich & Fragrant</small></div><div class="cat"><img src="images/cloves.jpg"><b>Cloves</b><small>Strong & Pungent</small></div><div class="cat"><img src="images/turmeric.jpg"><b>Turmeric</b><small>Golden & Earthy</small></div><div class="cat"><img src="images/nutmeg.jpg"><b>Nutmeg</b><small>Exotic & Aromatic</small></div>
+</div></section>
+<section class="section" id="shop"><div class="title"><h2>Best Sellers</h2><a href="#shop">View All Products →</a></div><div class="products">
+<div class="product" data-name="cinnamon"><div class="pic"><label>BEST SELLER</label><button class="heart">♡</button><img src="images/cinnamon-product.jpg"></div><h3>Ceylon Cinnamon Sticks</h3><small>50g</small><strong>Rs. 1,250.00</strong><button class="add">🛒 ADD TO CART</button></div>
+<div class="product" data-name="pepper"><div class="pic"><label class="pop">POPULAR</label><button class="heart">♡</button><img src="images/pepper-product.jpg"></div><h3>Premium Black Pepper</h3><small>100g</small><strong>Rs. 980.00</strong><button class="add">🛒 ADD TO CART</button></div>
+<div class="product" data-name="cardamom"><div class="pic"><button class="heart">♡</button><img src="images/cardamom-product.jpg"></div><h3>Green Cardamom</h3><small>50g</small><strong>Rs. 1,850.00</strong><button class="add">🛒 ADD TO CART</button></div>
+<div class="product" data-name="turmeric"><div class="pic"><button class="heart">♡</button><img src="images/turmeric-product.jpg"></div><h3>Pure Turmeric Powder</h3><small>100g</small><strong>Rs. 650.00</strong><button class="add">🛒 ADD TO CART</button></div>
+<div class="product" data-name="cloves"><div class="pic"><button class="heart">♡</button><img src="images/cloves-product.jpg"></div><h3>Cloves</h3><small>50g</small><strong>Rs. 780.00</strong><button class="add">🛒 ADD TO CART</button></div>
+<div class="product" data-name="nutmeg"><div class="pic"><button class="heart">♡</button><img src="images/nutmeg-product.jpg"></div><h3>Nutmeg</h3><small>25g</small><strong>Rs. 890.00</strong><button class="add">🛒 ADD TO CART</button></div>
+</div></section>
+<section class="newsletter" id="contact"><div class="mail">✉</div><div><h2>Stay Connected with Ceylon Spice Hub</h2><p>Subscribe to our newsletter and get updates on new products,<br>special offers and recipes.</p></div><form id="form"><input type="email" placeholder="Enter your email address" required><button>SUBSCRIBE</button></form></section>
+<section class="about" id="about"><div><p>ABOUT CEYLON SPICE HUB</p><h2>Authentic flavours<br>from our island.</h2><span>We bring carefully selected Sri Lankan spices to customers who value natural ingredients, traditional quality and the true taste of Ceylon.</span></div><a class="btn green" href="#shop">SHOP OUR SPICES →</a></section>
+</main><div id="toast"></div><script src="script.js"></script>
+</body></html>
