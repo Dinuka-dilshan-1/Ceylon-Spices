@@ -1,11 +1,5 @@
-CEYLON SPICE HUB - LOCAL IMAGE VERSION
+Ceylon Spice Hub - High Quality Images Version
 
-Open index.html in Chrome/Edge.
-All homepage images are stored locally in the images folder.
-Do not move or rename the images folder or its files.
-
-Structure:
-index.html
-style.css
-script.js
-images/
+Open index.html in Chrome or Edge.
+The website uses high-quality spice images matching the original categories/products, with local image fallbacks included.
+Internet connection is recommended for the high-quality image sources.
