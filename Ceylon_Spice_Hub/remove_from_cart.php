@@ -1,0 +1,1 @@
+<?php require 'db.php';$id=(int)($_GET['id']??0);$s=$pdo->prepare('DELETE ci FROM cart_items ci JOIN carts c ON c.cart_id=ci.cart_id WHERE ci.cart_item_id=? AND c.session_token=?');$s->execute([$id,$cartToken]);header('Location: cart.php');exit;
