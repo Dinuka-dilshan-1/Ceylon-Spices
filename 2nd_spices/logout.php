@@ -1,0 +1,1 @@
+<?php require 'db.php'; logout_user(); flash('message','You have been logged out successfully.'); header('Location: index.php'); exit; ?>
